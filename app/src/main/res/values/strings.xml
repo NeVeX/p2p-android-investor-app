@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">P2P Investing</string>
+
+    <string name="p2p">P2P</string>
+    <string name="peer_to_peer">Peer to Peer</string>
+    <string name="p2p_investing">Investing</string>
+    <string name="p2p_get_started">Get Started</string>
+    <string name="prosper_sign_up">JOIN</string>
+    <string name="prosper_log_in">LOGIN</string>
+    <string name="prosper_retrieving_account_information">Retrieving your account information&#8230;</string>
+    <string name="prosper_retrieving_account_information_error">Could not get your account information. Try again later.</string>
+    <string name="prosper_search_results_status_retrieving">Retrieving listings&#8230;</string>
+    <string name="prosper_search_results_status_no_results">No listings matching your search were found</string>
+    <string name="prosper_search_results_footer_retrieve_more_investments">TAP TO RETRIEVE MORE LISTINGS</string>
+    <string name="prosper_search_results_footer_retrieving">RETRIEVING&#8230;</string>
+    <string name="prosper_search_results_footer_end_of_search">NO MORE LISTINGS</string>
+
+
+    <string name="prosper_sign_in_dot_net_user_name_hint">Prosper API Username</string>
+    <string name="prosper_sign_in_dot_net_password_hint">Prosper API Password</string>
+    <string name="prosper_sign_in_java_user_name_hint">Prosper Username</string>
+    <string name="prosper_sign_in_java_password_hint">Prosper Password</string>
+    <string name="prosper_sign_in_java_client_key_hint">Client Key</string>
+    <string name="prosper_sign_in_java_client_secret_hint">Client Secret</string>
+
+    <!--<string name="prosper_sign_in_error_text">Could not log you in</string>-->
+    <string name="prosper_sign_in_logging_in_text">Logging in&#8230;</string>
+
+    <string name="prosper_sad_face">:-(</string>
+    <string name="prosper_happy_face">:-)</string>
+    <string name="prosper_investment_order_result_unsuccessful_text">Your Investment Order Was Not Successful</string>
+    <string name="prosper_investment_order_result_success_text">Your Investment Order Was Successful!</string>
+    <string name="prosper_investment_order_result_unknown_error_text">A problem was encountered when placing your order</string>
+    <string name="prosper_search_for_listings">SEARCH FOR LISTINGS</string>
+    <string name="prosper_invest">INVEST</string>
+    <string name="prosper_search">SEARCH</string>
+    <string name="prosper_no_listings_found">No listings were found for your search</string>
+    <string name="prosper_listing_search_results">Listings Found</string>
+    <string name="prosper_cancel">CANCEL</string>
+    <string name="prosper_invest_in_selected_listings">BULK INVEST IN LISTINGS BELOW</string>
+    <string name="prosper_invest_in_multiple_listings">Invest in multiple listings</string>
+    <string name="prosper_invest_listing_amount_text">Amount to invest</string>
+    <string name="prosper_invest_listing_multiple_amount_text">Amount to invest per listing</string>
+    <string name="prosper_error_listing_amount_less_than_25">Investment amount must be greater than $25!</string>
+    <string name="prosper_error_listing_amount_too_much">This is too much of an investment!</string>
+    <string name="prosper_error_not_enough_funds_in_account">You don\'t have enough funds</string>
+    <string name="p2p_add_account_prosper_info_text">You must use your Prosper API username and password. To find out what your username and password is, visit your <a href="https://www.prosper.com/secure/account/common/settings.aspx">Prosper Settings Page</a> and click on Edit API. Also if you wish to invest using this app, disable Write Only access.</string>
+    <string name="prosper_search_listings_retrieving_text">Retrieving listings&#8230;</string>
+    <string name="p2p_get_started_title">Which P2P accounts do you have?</string>
+    <string name="p2p_prosper_name">Prosper</string>
+    <string name="p2p_lending_club_name">Lending Club</string>
+    <string name="p2p_get_started_sub_title">*Click below to also sign up for an account</string>
+    <string name="p2p_get_started_action_bar_title">Getting Started</string>
+    <string name="p2p_add_account_sign_up_button">Sign Up</string>
+    <string name="p2p_add_account_prosper_action_bar_title">Add A Prosper Account</string>
+    <string name="p2p_add_account_prosper_username_hint">Enter Your Prosper API Username</string>
+    <string name="p2p_add_account_prosper_password_hint">Enter Your Prosper API Password</string>
+    <string name="p2p_add_account_lending_club_action_bar_title">Add A Lending Club Account</string>
+    <string name="p2p_add_account_lending_club_username_hint">Enter Your Lending Club Investor Id</string>
+    <string name="p2p_add_account_lending_club_password_hint">Enter Your Lending Club API Key</string>
+    <string name="p2p_add_account_prosper_title_text">Enter Your Prosper API Credentials Below</string>
+    <string name="p2p_add_account_lending_club_info_text">You must use your Lending Club API key. To find out what your key is, visit your <a href="https://www.lendingclub.com/account/profile.action">Lending Club Settings Page</a> and follow the API settings options.</string>
+    <string name="p2p_add_account_lending_club_title_text">Enter Your Lending Club API Credentials Below</string>
+    <string name="p2p_sign_up_prosper_url">https://www.prosper.com/investor/register</string>
+    <string name="p2p_sign_up_prosper_action_bar_title">Sign up with Prosper</string>
+    <string name="p2p_sign_up_lending_club_url">https://www.lendingclub.com/lender/registerNow.action</string>
+    <string name="p2p_sign_up_lending_club_action_bar_title">Sign up with Lending Club</string>
+    <string name="p2p_add_account_prosper_button_text">Add Prosper Account</string>
+    <string name="p2p_adding_account_prosper_button_text">Adding Prosper Account&#8230;</string>
+    <string name="p2p_add_account_lending_club_button_text">Add Lending Club Account</string>
+    <string name="p2p_adding_account_lending_club_button_text">Adding Lending Club Account&#8230;</string>
+    <string name="p2p_add_account_error_text">Hmm, could not add this account</string>
+
+</resources>

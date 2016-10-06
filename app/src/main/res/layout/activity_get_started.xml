@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/prosper_activity_horizontal_margin"
+    android:paddingRight="@dimen/prosper_activity_horizontal_margin"
+    android:paddingTop="@dimen/prosper_activity_vertical_margin"
+    android:paddingBottom="@dimen/prosper_activity_vertical_margin"
+    tools:context=".GetStartedActivity"
+    android:background="@color/prosper_color">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+
+        <TextView android:text="@string/p2p_get_started_title"
+            android:textColor="@color/prosper_white"
+            android:textSize="@dimen/prosper_text_size_medium"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_marginTop="10dp"
+            android:background="@color/prosper_white"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/prosper_border_width"/>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:text="@string/p2p_get_started_sub_title"
+            android:textColor="@color/prosper_white"
+            android:textSize="@dimen/prosper_text_size_small"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content" />
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="40dp"
+            android:layout_width="@dimen/normal_button_width"
+            android:layout_height="match_parent">
+
+            <!--<Button-->
+                <!--android:layout_marginBottom="25dp"-->
+                <!--android:text="@string/prosper_sign_up"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:onClick="onSignUpButtonClick" />-->
+
+            <Button
+                android:text="@string/p2p_prosper_name"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:onClick="onProsperAccountButtonClicked"
+            />
+
+            <Button
+                android:layout_marginTop="30dp"
+                android:text="@string/p2p_lending_club_name"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:onClick="onLendingClubAccountButtonClicked"
+                />
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
